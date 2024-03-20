@@ -1,3 +1,7 @@
+//Strings
+// they are immutable data structure which can not be changed 
+let stringg = "Mystring" 
+
 // Strings Concatenation
 let First_name = "Muhammad";
 let last_name = "Mudasir"
@@ -35,21 +39,25 @@ console.log(Name.at(-1))
 
 //2. Slice(start,end-->indexes) it extracts a copy/part of the string.
 let message_ = "Greetings from me"
-newmessage= message_.slice(0,9);
+newmessage= message_.slice(0,9); // or message_.slice(9) by defeault first postion is 0 and last position is -1 or end.
 console.log(newmessage)
 
-// 3.Trim Method --> it removes whitespaces from both ends of strings and returns a new string.
+// 3. indexOf("value") --> it returns the first index of Occurence of some value in the string. gives -1 if not found.
+let coding = "ILoveCoding";
+console.log(coding.indexOf("Love"));
+
+// 4.Trim Method --> it removes whitespaces from both ends of strings and returns a new string.
 let message = "  Hello   Sir   "
 new_message = message.trim()
 console.log(new_message);
 
-//4.Replace() --> replaces a specified value with another value in a string .
+//5.Replace() --> replaces a specified value with another value in a string .
 console.log(message_.replace("me","Mudasir"))
 
-//5. toUppercase , toLowercase
+//6. toUppercase , toLowercase
 console.log(message_.toUpperCase())
 
-//6.Split("at which you want to split ") --> it spilts the string and converts into Array
+//7.Split("at which you want to split ") --> it spilts the string and converts into Array
 let sentence = "This is my split method";
 new_sent = sentence.split(" "); //split the string on whitespaces
 console.log(new_sent)

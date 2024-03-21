@@ -143,3 +143,43 @@
 // else{
 // document.write("You Won")
 // }
+
+
+
+// 3. For Of Loop : --> they are used when we want to access the elements of collection or simply used for traversing
+//  over arrays , strings and other data structures
+
+//Syntax:
+// for (element of collection){
+//     block of code
+// }
+
+// let cities = ["karachi","hyderabad","islamabad","lahore","multan","sukkur"]
+// for (city of cities){
+//     console.log(city)
+// } 
+
+// let newname = "Mudasir"
+// for (char of newname){
+//     console.log(char)
+// }
+
+
+
+
+
+// LOOPS WITH ARRRAYS;
+//Forward
+// let friuts = ["mango","banana","orange","pineapple","kiwi","grapes"]
+// for (let i=0; i<friuts.length;i++){
+//     console.log(i , friuts[i]);
+// }
+
+// //backward or Reverse
+// console.log("Reverse")
+// let friut1 = ["mango","banana","orange","pineapple","kiwi","grapes"]
+// for (let i=friut1.length-1; i>=0; i--){
+//     console.log(i , friut1[i]);
+// }
+
+

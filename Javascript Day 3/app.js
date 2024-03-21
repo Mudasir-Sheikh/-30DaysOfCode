@@ -82,8 +82,6 @@ var score_arr_sorted = score_arr.sort() //sorts the array but wrong
 console.log(score_arr_sorted)
 
 
-
-
 //5.indexOf() --> gives index of the given value gives -1 of not found
 let primary = ["red","yellow","green"]
 console.log(primary.indexOf("yellow"))
@@ -96,8 +94,17 @@ let secondary = ["orange","black" ,"white"]
 let finalarray=  primary.concat(secondary)
 console.log(finalarray)
 
-//8.Reverse --> it reverse the array
+//8. Join("") --> The join method takes one parameter in string which is used for
+// joining/concatenating the all values of Array, by defeault is comma "," , In this case space is given
+var sentence = ["This","is","my","cat"]
+var joinsentence = sentence.join(" ");  
+console.log(sentence)
+console.log(joinsentence)
+
+//9.Reverse --> it reverse the array
 console.log(primary.reverse())
+
+
 
 
 //Nested / MultiDimensional Arrays:
@@ -127,7 +134,7 @@ console.warn(game)
 
 
 
-//Question 08
+//Exercise - Question of Array 01 
 var studentName = []
 studentName.push("Ali","Saad","Saif"); //Using declared array above by push method.
 var studentsMarks=[281,320,430]
@@ -141,31 +148,7 @@ document.write(" Percentage: ",studentsMarks[2]/500*100,"%<br><br>")
 
 
 
-//Question 09
-var colors = ["yellow", "orange","red","blue","green"]
-document.write(colors)
-
-
-
-
-
-
-//Question 11
-var city_Names = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
-var seleted_cities = city_Names.slice(2,4)
-console.log(city_Names)
-console.log(seleted_cities)
-
-
-//Question 12
-var sentence = ["This","is","my","cat"]
-var joinsentence = sentence.join(" ");  //The join method takes one parameter in string which is used for
-// joining/concatenating the all values of Array, by defeault is comma "," , In this case space is given
-console.log(sentence)
-console.log(joinsentence)
-
-
-//Question 13
+// Exercise - Question 02
 // First In First Out Rule Using unshift for first-in and pop for first out
 console.log("First-In-First-Out")
 var storevalues = []
@@ -189,7 +172,8 @@ storevalues.pop()
 console.log(storevalues)
 
 
-//Question 14 
+
+// Exercise - Question 03
 //Last-In-First-Out
 console.log(" ")
 console.log("Last-In-First-Out")
@@ -202,8 +186,6 @@ storevalue.push("Object 3")
 console.log(storevalue)
 storevalue.push("Object 4")
 console.log(storevalue)
-
-
 
 
 storevalue.pop()

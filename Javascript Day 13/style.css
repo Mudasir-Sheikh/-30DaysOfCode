@@ -1,0 +1,18 @@
+.edited{
+    color: blue;
+    background-color: aquamarine;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline black wavy;
+}
+.deleted{
+    color: yellow;
+    background-color: yellowgreen;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.content{
+    border: 1px solid black;
+    margin-top: 22px;
+}
